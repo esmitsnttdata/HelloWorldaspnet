@@ -1,0 +1,8 @@
+---
+applications:
+- name: helloworld-aspdotnet
+  buildpack: hwc_buildpack
+  memory: 128M
+  routes:
+   - route: helloworldaspdotnet.pcfapps.nonprod.ptc.nttdataservices.com
+  stack: windows2016
